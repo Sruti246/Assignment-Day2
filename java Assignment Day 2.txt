@@ -1,0 +1,10 @@
+class CommandLineArguments
+{
+    Public Static void main(Strng[] args)
+    {
+        int a=Integer ParseInt(args[0]);
+        int b=Integer ParseInt(args[1]);
+        int sum=a+b;
+        System.out.println("Sum is: " +sum);
+    }
+}
